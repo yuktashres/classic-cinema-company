@@ -1,10 +1,9 @@
 import React from "react";
-import homeBanner from './images/HomeBanner.png';
 
 const HeroBannerComponent = (props) => {
     return (
         <>
-            <img src={homeBanner}
+            <img src={props.image}
                  alt="Hero Banner"
                  width={`100%`}
                  height={500}>
