@@ -6,7 +6,9 @@ const HeroBannerComponent = (props) => {
         <>
             <img src={homeBanner}
                  alt="Hero Banner"
-                 width={500}></img>
+                 width={`100%`}
+                 height={500}>
+                 </img>
         </>
     );
 }
