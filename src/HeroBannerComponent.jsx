@@ -1,5 +1,5 @@
 import React from "react";
-import homeBanner from './images/images/HomeBanner/HomeBanner.png';
+import homeBanner from './images/HomeBanner.png';
 
 const HeroBannerComponent = (props) => {
     return (
