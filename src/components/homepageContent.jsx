@@ -3,7 +3,7 @@ import React from "react";
 import ImageComponent from '../components/imageComponent';
 import TextComponent from '../components/textComponent';
 
-import ImageSnacks from '../resources/myimages/home-snacks.png';
+import ImageSnacks from '../images/home-snacks.png';
 
 const homepageComponent = () => {
   return (
