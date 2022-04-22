@@ -1,11 +1,12 @@
 import React from "react";
 import './Header.css';
-import logo from './logo.svg';
-import search from './search.png';
 
 const Header = () => {
     return (
         <header>
+            <nav>
+                <h1>The Classic Cinema Company</h1>
+            </nav>
         </header>
     );
 };

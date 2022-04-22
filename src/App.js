@@ -1,14 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './Header';
-import Footer from './Footer';
+import HeroBannerComponent from './HeroBannerComponent';
+import homeBanner from './images/images/HomeBanner/HomeBanner.png';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <div>Ciccio</div>
-      <Footer />
+      <HeroBannerComponent image={homeBanner}/>
     </div>
   );
 }
